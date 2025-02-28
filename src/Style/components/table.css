@@ -1,0 +1,49 @@
+.table__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 5rem auto;
+}
+
+.table__Container {
+  display: block;
+  max-width: 100%;
+  border-collapse: collapse;
+  border-radius: 1rem;
+  overflow: hidden;
+  border-collapse: collapse;
+  background-color: var(--white);
+}
+
+.header__Row-Container {
+  background-color: var(--blue);
+  border: none;
+
+  font-size: 2rem;
+}
+
+.table__header--text {
+  padding: 2rem 4rem;
+  text-align: left;
+}
+
+.userData {
+  padding: 0.9rem 2rem;
+  color: var(--blue-dark);
+  font-size: 1.2rem;
+}
+
+.table__btn--container {
+  background-color: var(--blue-dark);
+}
+
+.table__btn {
+  background-color: var(--blue-dark);
+}
+
+.table__btn:visited,
+.table__btn:link {
+  color: var(--blue);
+  text-decoration: none;
+}

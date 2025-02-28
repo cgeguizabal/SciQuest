@@ -1,0 +1,44 @@
+.welcome__container {
+  display: grid;
+
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  justify-items: center;
+  align-items: center;
+  margin: 20rem auto;
+  max-width: 120rem;
+  padding: 2rem;
+}
+
+.welcome__logo {
+  width: 25rem;
+}
+.welcome__paragraph {
+  margin-top: 2rem;
+  font-size: 2rem;
+  text-align: center;
+  color: var(--blue--dark);
+}
+
+.welcome__btn {
+  color: var(--white);
+  margin-top: 2rem;
+  background-color: var(--blue);
+  padding: 2rem 5rem;
+  border-radius: 2rem;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.welcome__btn:hover {
+  background-color: var(--blue--dark);
+}
+
+.welcome__btn:visited,
+.welcome__btn:link {
+  color: var(--white);
+}
+
+.welcome__btn:hover {
+  color: var(--blue);
+}
