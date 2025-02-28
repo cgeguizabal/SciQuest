@@ -4,7 +4,7 @@ function Home() {
   return (
     <>
       <div className="welcome__container">
-        <img src="/public/Isologo.png" alt="logo" className="welcome__logo" />
+        <img src="Isologo.png" alt="logo" className="welcome__logo" />
         <p className="welcome__paragraph">
           Welcome to SciQuest, your go-to platform for exploring groundbreaking
           discoveries from scientists around the world. Stay informed and

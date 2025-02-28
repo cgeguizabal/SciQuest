@@ -8,7 +8,7 @@ function NavBar() {
           <ul className="navBar-List">
             <li>
               <Link to="/">
-                <img src="/public/Logo.png" alt="" className="logo__navaBar" />
+                <img src="Logo.png" alt="" className="logo__navaBar" />
               </Link>
             </li>
             <li>
