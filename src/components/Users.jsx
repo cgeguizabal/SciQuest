@@ -32,7 +32,7 @@ function Users() {
               <th className="table__header--text">Name</th>
               <th className="table__header--text">Email</th>
               <th className="table__header--text">User Name</th>
-              <th className="table__header--text">Actions</th>
+              <th className="table__header--text">Action</th>
             </tr>
           </thead>
           <tbody>
@@ -54,7 +54,7 @@ function Users() {
                   <td className="userData" data-label="User Name">
                     {user.username}
                   </td>
-                  <td className="table__btn--container" data-label="Actions">
+                  <td className="table__btn--container">
                     <Link to={`/Post/${user.id}`} className="table__btn">
                       Check User's Posts
                     </Link>
