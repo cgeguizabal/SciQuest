@@ -36,5 +36,5 @@ El proyecto es ideal para practicar el consumo de APIs, la gestión de estados e
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/tu-repositorio.git
+   git clone https://github.com/cgeguizabal/SciQuest
    ```
