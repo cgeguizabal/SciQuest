@@ -1,0 +1,35 @@
+.post-wrapper {
+  display: grid;
+  max-width: 50rem;
+  margin: 15rem auto;
+  padding: 1.7rem;
+}
+
+.post__Container {
+  background-color: rgb(255, 255, 255);
+  margin-top: 2rem;
+  padding: 1.5rem;
+  box-shadow: 0 10px 25px rgba(43, 43, 43, 0.1);
+  border-radius: 2rem;
+}
+
+.post__title {
+  color: var(--blue);
+}
+
+.post__line {
+  border: none;
+  height: 1px;
+  background-color: var(--blue--light);
+  width: 100%;
+  margin: 0.5rem 0 1rem 0;
+}
+
+.post__body {
+  font-size: 1.4rem;
+}
+
+.post__publisher {
+  margin-top: 1rem;
+  color: var(--blue--dark);
+}

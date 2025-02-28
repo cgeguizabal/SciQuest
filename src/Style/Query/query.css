@@ -1,0 +1,42 @@
+@media (max-width: 52em) {
+  .table__Container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header__Row-Container {
+    display: none; /* Hide the header row on small screens */
+  }
+
+  .table__Container tbody tr {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    border: 1px solid var(--blue);
+    border-radius: 0.5rem;
+    padding: 1rem;
+  }
+
+  .table__Container tbody tr td {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 0;
+  }
+
+  .table__Container tbody tr td::before {
+    content: attr(data-label);
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: var(--blue);
+  }
+
+  .table__btn--container {
+    padding: 0.5rem 1rem;
+    text-align: center;
+  }
+
+  .table__btn:visited,
+  .table__btn:link {
+    font-size: 1.2rem;
+  }
+}

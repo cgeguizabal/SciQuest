@@ -6,6 +6,10 @@ import "./Style/components/navBar.css";
 import "./Style/components/table.css";
 import "./Style/variables.css";
 import "./Style/components/home.css";
+import "./Style/components/post.css";
+
+//Query
+import "./Style/Query/query.css";
 
 import { BrowserRouter } from "react-router-dom";
 import NavBar from "./components/NavBar";

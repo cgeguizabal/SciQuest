@@ -38,17 +38,23 @@ function Users() {
           <tbody>
             {loading ? (
               <tr>
-                <td>
+                <td colSpan="4">
                   <h1>Loading data...</h1>
                 </td>
               </tr>
             ) : (
               users.map((user) => (
                 <tr key={user.id}>
-                  <td className="userData">{user.name}</td>
-                  <td className="userData">{user.email}</td>
-                  <td className="userData">{user.username}</td>
-                  <td className="table__btn--container">
+                  <td className="userData" data-label="Name">
+                    {user.name}
+                  </td>
+                  <td className="userData" data-label="Email">
+                    {user.email}
+                  </td>
+                  <td className="userData" data-label="User Name">
+                    {user.username}
+                  </td>
+                  <td className="table__btn--container" data-label="Actions">
                     <Link to={`/Post/${user.id}`} className="table__btn">
                       Check User's Posts
                     </Link>

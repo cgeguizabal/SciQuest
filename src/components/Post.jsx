@@ -39,7 +39,8 @@ function Post() {
   }, []);
 
   return (
-    <div>
+    <div className="post-wrapper">
+      <h1>Posts</h1>
       {loading ? (
         <div>
           <h1>Loading data...</h1>
@@ -48,10 +49,13 @@ function Post() {
         post.map((posts) => {
           return (
             <div key={posts.id} className="post__Container">
-              <h2>{posts.title}</h2>
-              <p>{posts.body}</p>
+              <h2 className="post__title">{posts.title}</h2>
+              <hr className="post__line"></hr>
+              <p className="post__body">{posts.body}</p>
               <div>
-                <p>Published by {users ? users.name : "Unknown User"}</p>
+                <p className="post__publisher">
+                  Published by {users ? users.name : "Unknown User"}
+                </p>
               </div>
             </div>
           );
