@@ -1,3 +1,45 @@
+# 🌐 Project: Scientists Web Page
+
+## 📄 Project Description
+
+This project is a web page built using **Vite + React**, leveraging the **Axios** library to consume a public API. The platform is designed for scientists, allowing them to view information about other scientists and explore their publications.
+
+When visiting the page, users can:
+
+- View a list of scientists with basic information (name, email, username).
+- Click a button to view each scientist’s publications.
+
+This project is ideal for practicing API consumption, managing state in React, and building responsive user interfaces.
+## Preview
+https://keen-biscochitos-c139f8.netlify.app/
+---
+## 🛠️ Technologies Used
+
+- **Vite**: Fast development environment for React.
+- **React**: JavaScript library for building user interfaces.
+- **Axios**: Library to make HTTP requests to the API.
+- **React Router**: For client-side page navigation.
+- **CSS**: Custom styling for a responsive and attractive interface.
+
+## ✨ Key Features
+
+- **Scientists List**: Displays a table with scientists’ basic information.
+- **Responsive Design**: Mobile-friendly and adapts to small screens.
+- **Scientist Publications**: Allows users to view each scientist’s publications by clicking a button next to each entry.
+
+## 🚀 How to Run the Project
+
+### ✅ Prerequisites
+
+- Node.js installed (version 16 or higher)
+- npm or yarn installed
+
+### 📦 Steps to Set Up the Project
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/cgeguizabal/SciQuest
+
 # Proyecto: Página Web de Científicos
 
 ## Descripción del Proyecto
